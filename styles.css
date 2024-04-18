@@ -1,0 +1,93 @@
+h1 {
+    color: rgb(29, 29, 29);
+    font-size: 300%;
+    position: relative;
+    left: 100px;
+  }
+
+.text{
+    color: rgb(29, 29, 29);
+    font-size: 16pt;
+    line-height: 25pt;
+    position: relative;
+    left: 100px;
+}
+
+label{
+    color: rgb(29, 29, 29);
+    font-size: 12pt;
+    line-height: 10pt;
+    width:407px;
+    display: flex;
+}
+
+textarea {
+    resize: none;
+    width:400px;
+    height:450px;
+    display: flex;
+}
+  
+textarea:focus {
+border:1px solid #0000ff;
+outline:0;
+
+}
+
+
+
+.list {
+    padding-left: 0px;
+    display: flex;
+    position: relative;
+    left: 100px;
+    list-style: none;
+    gap: 10px;
+  }
+  
+
+.original-button {
+  font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 22px;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  border: 2px dashed #b1bfff;
+  background-color: #f6f6f6;
+}
+
+.original-button:hover {
+  opacity: .7;
+}
+
+
+
+.original-number {
+  font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 22px;
+  border-radius: 8px;
+  width: 120px;
+  height: 34px;
+  border: 2px dashed #b1bfff;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.original-number:hover {
+  opacity: .7;
+
+}

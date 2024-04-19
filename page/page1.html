@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>生成ページ</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../scripts/javascript.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.js"></script>
+  </head>
+  <body>
+    <h1>生成ページ</h1>
+    <a href="../index.html" class="text">トップページへ</a>
+    <div class="qrblock">
+      <p class="qrcomment">QRコードで生成したい文字列を入力してください。</p>
+      <input id="isbn" type="text" name="isbn" value=""> <button id="getqrInfo" class="btn btn-default">QRコードを生成</button>
+    </div>
+    <div id="qrOutput">
+      <canvas id="qr"></canvas>
+    </div>
+  </body>
+
+</html>

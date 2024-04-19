@@ -3,6 +3,21 @@ const video = document.getElementById('video');
 let contentWidth;
 let contentHeight;
 
+let cameraFacingIsUser = false; 
+let facingText = document.getElementById('camera-facing');
+facingText.innerText = "インカメラ";
+document.getElementById('btn').onclick = () => {
+    if(cameraFacingIsUser){
+        facingText.innerText = "アウトカメラ";
+        cameraFacingIsUser = false;
+    }else{
+        facingText.innerText = "インカメラ";
+        cameraFacingIsUser = true;
+    } 
+}
+
+
+
 const media = navigator.mediaDevices.getUserMedia({ audio: false, video: {width:640, height:480} })
    .then((stream) => {
       video.srcObject = stream;

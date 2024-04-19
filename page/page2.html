@@ -5,13 +5,23 @@
 
 </head>
 <body>
-        <div id="wrapper">
-            <video id="video" autoplay muted playsinline></video>
-            <canvas id="camera-canvas"></canvas>
-            <canvas id="rect-canvas"></canvas>
-            <span id="qr-msg">QRコード: 見つかりません</span>
-        </div>
-    <script src="../scripts/jsQR.js"></script>
-    <script src="../scripts/script.js"></script>
+  <div id="wrapper">
+    <video id="video" autoplay muted playsinline></video>
+    <div>
+      <canvas id="camera-canvas"></canvas>
+      <canvas id="rect-canvas"></canvas>
+    </div>
+    <ul>
+      <span  id="qr-msg">QRコード: 見つかりません</span>
+      <div>
+        <button id="btn">カメラ切り替え</button>
+        <span id="camera-facing"></span>  
+      </div>
+
+    </ul>
+
+  </div>
+  <script src="../scripts/jsQR.js"></script>
+  <script src="../scripts/script.js"></script>
 </body>
 </html>

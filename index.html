@@ -2,37 +2,14 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <title>改行ツール</title>
+    <title>QRコード</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="javascript.js" defer></script>
   </head>
   <body>
-    <h1>改行ツール</h1>
-    <p class="text">
-      入力した文章を指定した文字数で改行することが可能です。<br />
-      もともとある改行はそのまま残します。
-    </p>
-    <form >
-      <ul class="list">
-        <label>変換前</label>
-        <label>変換後</label>
-      </ul>
-      <ul class="list">
-        <textarea id="before_textarea"></textarea>
-        <textarea id="after_textarea"></textarea>
-      </ul>
-      <ul class="list">
-        <input type="button" value="変換" class="original-button" onclick="buttonClick()" />
-        <input type="button" value="クリア" class="original-button" onclick="reset()">
-        <input id="number" type="number" value="30" class="original-number" />
-      </ul>
-      <ul class="list">
-        <input type="button" value="1Page" class="original-button" onclick="splitpage(1)">
-        <input type="button" value="2Page" class="original-button" onclick="splitpage(2)">
-        <input type="button" value="3Page" class="original-button" onclick="splitpage(3)">
-      </ul>
-    </form>
-    <script src="javascript.js"></script>
+    <h1>ページトップ</h1>
+    <a href="./page/page1.html" class="text">QRコード作成ページ</a>
+    <a href="./page/page2.html" class="text">QRコード読み取りページ</a>
+    <a href="./page/page3.html" class="text">持ち物確認</a>
   </body>
 
 </html>
